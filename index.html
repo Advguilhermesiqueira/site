@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/guilherme-siqueira-advocacia-favicon.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/guilherme-siqueira-advocacia-favicon.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/guilherme-siqueira-advocacia-favicon.webp"
+    />
+
+    <title>Guilherme Siqueira - Advocacia</title>
+  </head>
+  <body>
+    <link rel="preload" as="font">
+    <!-- Navbar -->
+    <div class="opaco" id="opaco-id"></div>
+    <nav>
+         
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" ">
+        
+        <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="menu()">
+            <i class="fa fa-bars" id="botao"></i>
+          </a>
+          <a class="sumir">Inicio</a>
+          <a href="#" onclick="menu()">Início</a>          
+          <a href="#sobremim"  onclick="menu()">Sobre mim</a>
+          <a href="#servicos"  onclick="menu()">Meus serviços</a>
+          <a href="https://wa.me/5562998020881"  onclick="menu()" target="_blank">Entre em contato</a>
+          <a href="https://www.linkedin.com/in/guilherme-siqueira-b47205254/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+          
+        </div>
+        
+        
+
+          <a href="#" class="logo">
+            <img 
+            src="assets/images/logo-guilherme-siqueira-advocacia.webp" 
+            class="logo-advocacia-imobiliaria" 
+            alt="Logo com iniciais BG em destaque, abaixo escrito Brenner Gontijo e, na última linha, advocacia imobiliária" 
+            width=100%
+            height=100% />
+          </a>
+
+
+          
+
+        <div class="whatsapp">
+          <a href="https://wa.me/5562998020881" target="_blank"  class="btn-whatsapp-pulse"><img
+          src="assets/icons/whatsapp.webp"
+          class="socicon wpp"
+          alt="Whatsapp"
+         /> </a>
+        </div>
+       
+        <!-- <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+            <ion-icon name="partly-sunny-outline" class q="sun"></ion-icon>
+            <ion-icon name="moon-outline" class="moon"></ion-icon>
+            <div class="switcher"></div>
+        </label>-->
+    </nav>
+    
+
+
+
+  
+
+    <!-- Bars -->
+    <section class="call" id="call-id">
+      <div class="intro-text">
+        <h1>
+          <span class="precisa"> Advocacia</span>
+          <span class="problema"> consultiva, preventiva e contenciosa.</span>
+        </h1>
+      </div>
+    </section>
+
+
+    <!-- Hero section -->
+    <section class="apresentacao" id="apresentacao-id">
+      <div class="intro-textt">
+
+        <div class="nome-bren" id="sobremim">
+          <h1>
+            <span class="drbre"> Dr. Guilherme Siqueira<br> </span>
+            <span class="oabgo"> OAB/GO nº 61.189</span>
+          </h1>
+          <h2>Advogado com experiência em direito civil, trabalhista e bancário, atuando tanto para pessoas físicas quanto jurídicas, sempre buscando a maior efetividade nos litígios e propondo soluções preventivas.
+            <br>• Especialista em Direito Civil e Processual Civil
+            <br>• Especialista em Direito do Trabalho e Processo do Trabalho</h2>
+          <a class="btn red" href="https://wa.me/5562998020881"  onclick="menu()" target="_blank">Fale comigo no WhatsApp</a>
+        </div>
+        <div class="foto">
+          <a href="">
+            <picture>
+            <img
+              src="assets/images/guilhermesiqueira-advocacia.webp"
+              alt="Brenner Gontigo"
+              title="BG"
+              width=80%
+              height=80%
+            />
+          </picture>
+          </a>
+        </div>
+
+
+        
+        
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="servicos" id="servicos">
+      <h2>Serviços</h2>
+      <div class="titulos">
+        <div class="titulo-a" onclick="popUp('titulo-a myPopup')"> 
+          <div class="imagem-a"><img src="assets/icons/despejo.webp" width="50px"></div>
+          <div class="nome-a">Elaboração e análise de contratos.</div>
+          <span class="popuptext" id="titulo-a myPopup">Expulse o Inquilino de seu imóvel!<br><br>Falta de pagamento.<br><br>Descumprimento legal ou contratual.<br><br>Para moradia própria.<br><br>Acordo.<br><br>x</span>
+          <div class="saiba-a">Saiba mais</div>
+        </div>
+
+
+          <div class="titulo-b" onclick="popUp('titulo-c myPopup')">
+            <div class="imagem-b"><img src="assets/icons/compra-venda-imoveis.webp" width="60px"></div>
+            <div class="nome-b">Cobrança Judicial e Extrajudicial</div>
+            <span class="popuptext" id="titulo-b myPopup">Parcelas elevadas.<br><br>Atraso na entrega.<br><br>Análise de documentação.<br><br>Elaboração de contrato.<br><br>Análise de contrato.<br><br>Escritura e Registro.<br><br>Imposto (ITBI).<br><br>Assessoria e acompanhamento.<br><br>x</span>
+            <div class="saiba-b">Saiba mais</div>
+          </div>
+
+          <div class="titulo-c" onclick="popUp('titulo-c myPopup')">
+            <div class="imagem-c"><img src="assets/icons/compra-venda-imoveis.webp" width="60px"></div>
+            <div class="nome-c">Assessoria preventiva para empresas</div>
+            <span class="popuptext" id="titulo-c myPopup">Parcelas elevadas.<br><br>Atraso na entrega.<br><br>Análise de documentação.<br><br>Elaboração de contrato.<br><br>Análise de contrato.<br><br>Escritura e Registro.<br><br>Imposto (ITBI).<br><br>Assessoria e acompanhamento.<br><br>x</span>
+            <div class="saiba-c">Saiba mais</div>
+          </div>
+      </div>
+
+      <div class="titulos-b">
+        <div class="titulo-d" onclick="popUp('titulo-d myPopup')"> 
+          <div class="imagem-d"><img src="assets/icons/distrato-imoveis.webp" width="40px"></div>
+          <div class="nome-d">Assessoria em negociações</div>
+          <span class="popuptext" id="titulo-d myPopup">Desistência.<br><br>Publicidade enganosa.<br><br>Restituição dos valores pagos.<br><br>x</span>
+          <div class="saiba-a">Saiba mais</div>
+        </div>
+
+        <div class="titulo-e" onclick="popUp('titulo-e myPopup')">
+            <div class="imagem-e"><img src="assets/icons/regularizacao-imoveis.webp" width="50px"></div>
+            <div class="nome-e">Assessoria consultiva</div>
+            <span class="popuptext" id="titulo-e myPopup">Escritura Pública de Compra e Venda.<br><br>Matrícula do Imóvel, sem ônus e gravames.<br><br>Alvará de Construção.<br><br>Habite-se.<br><br>Certidão Negativa de Débitos.<br><br>x</span>
+            <div class="saiba-e">Saiba mais</div>
+        </div>
+
+          <div class="titulo-f" onclick="popUp('titulo-f myPopup')">
+            <div class="imagem-f"><img src="assets/icons/usucapiao.webp" width="75px"></div>
+            <div class="nome-f">Advocacia Cível e Trabalhista</div>
+            <span class="popuptext" id="titulo-f myPopup">Aquisição do imóvel pelo uso ao longo dos anos.<br><br>Posse mansa, pacífica, ininterrupta e sem oposição.<br><br>Único imóvel do possuidor.<br><br>Usucapião extrajudicial (cartório).<br><br>Ação de Usucapião.<br><br>x</span>
+            <div class="saiba-f">Saiba mais</div>
+          </div>
+      </div>
+
+    </section>
+
+        <!-- Social icons -->
+        <section class="social">
+          <h3>Veja meu perfil no linkedin.</h3>
+          <div class="socicons">
+            <a href="https://www.linkedin.com/in/guilherme-siqueira-b47205254/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+          </div>
+        </section>
+
+    <!-- Lightbox image gallery 
+    <section class="loc" id="loc">
+      <div class="loc-titulo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15287.585865404106!2d-49.2585498!3d-16.6820636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef165d4163bfb%3A0x7e60d70be9bf3c32!2sGon%C3%A7alves%2C%20Macedo%2C%20Paiva%20e%20Rassi%20Advogados%20-%20GMPR!5e0!3m2!1spt-BR!2sbr!4v1678639832256!5m2!1spt-BR!2sbr" class="map" width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>      </div>
+    </section>
+    -->
+
+
+    <footer>&copy;2023. Todos os direitos reservados.</footer>
+
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+     ><img
+       src="http://cdn.onlinewebfonts.com/svg/img_70229.png"
+       class="socicon up-arrow"
+       alt="up-arrow"
+      />
+    </i>
+
+
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+
+  </body>
+</html>
