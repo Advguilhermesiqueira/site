@@ -61,7 +61,7 @@ a:hover {
 }
 
 nav {
-  background-color: #72736F;
+  background-color: #D9d9d9;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
@@ -95,7 +95,7 @@ nav {
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #000000;
-  background-color: #72736F;
+  background-color: #d9d9d9;
   text-align: center;
   padding: 15px 20px;
   text-decoration: none;
