@@ -589,6 +589,11 @@ nav {
   to {opacity:1 ;}
 }
 
+.imagem-b {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
 .saiba-c{
   font-size: 1.5rem;
 
@@ -657,6 +662,11 @@ nav {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+.imagem-c {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 
@@ -730,6 +740,10 @@ nav {
   to {opacity:1 ;}
 }
 
+.imagem-d {
+  margin-top: 1rem;
+  margin-bottom: -0.5rem;
+}
 
 .saiba-e{
   font-size: 1.5rem;
