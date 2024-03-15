@@ -1315,7 +1315,7 @@ body.dark .up-arrow {
     position: relative;
     align-content: center;
     height: 100%;
-    
+    margin-left: 0;
     border-radius: 35px;
     align-content: center;
    }
